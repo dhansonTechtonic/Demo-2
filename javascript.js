@@ -1,4 +1,4 @@
-var currentAmount = 150;
+var currentAmount = 120;
 var goal = 632.21;
 
 var barWidth = 265 * (currentAmount / goal) + "px";
