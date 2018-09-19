@@ -1,3 +1,198 @@
-p {
-  font-family: sans-serif;
+/* Global resets */
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
 }
+
+body {
+	font-family: "rooney-sans", Avenir-Book, Calibri, sans-serif;
+	color: #424242;
+	line-height: 1.4;
+}
+
+/* Fonts */
+h1 {
+	font-family: "rooney-web", "AmericanTypewriter", Rockwell, serif;
+	font-size: 2.5em;
+	font-weight: bold;
+}
+
+.container {
+	margin: 2em auto;
+	max-width: 630px;
+	text-align: center;
+}
+
+.dialog {
+	font-size: 13px;
+	color: white;
+	font-family: "rooney-web", serif;
+	background: #424242;
+	width: 265px;
+	height: 45px;
+	position: center;
+	padding-top: 12px;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 3px;
+}
+
+
+.arrow-down {
+  width: 0;
+  height: 0;
+  border-left: 4.5px solid transparent;
+  border-right: 4.5px solid transparent;
+  border-top: 6px solid #424242;
+	margin-left: auto;
+	margin-right: 217px
+}
+
+.meter {
+	width: 265px;
+	height: 13px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #eaeaea;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 4px;
+	background: transparent;
+	position: relative;
+	z-index: 3;
+}
+
+.fill {
+	width: 0px;
+	height: 11px;
+	background: #EF5F3C;
+	z-index: 2;
+}
+
+.box {
+	width: 265px;
+	height: 200px;
+	background: #fff;
+	border-style: solid;
+	border-color: #eaeaea;
+	border-width: 1px;
+	border-top: transparent;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 20px;
+	padding-top: 10px;
+	box-shadow: 0px 1px 1px #eaeaea;
+}
+
+.box span {
+	color: #EF5F3C;
+	font-weight: bold;
+}
+.box p {
+	font-size: 12px;
+	color: #777;
+	text-align: left;
+	font-family: Avenir book, sans-serif;
+	line-height: 20px;
+}
+
+.donation {
+	width:107px;
+	height:43px;
+	border-style:solid;
+	border-color:#eaeaea;
+	border-width:1px;
+	border-radius:3px;
+	margin-top: 10px;
+	padding-left: 4px;
+	float: left;
+}
+
+h2 {
+	font-family: Avenir-book, sans-serif;
+	font-size: 17px;
+	text-align:left;
+	margin-top: 9px;
+}
+
+.give {
+	width:107px;
+	height:43px;
+	background:#1CBC2C;
+	border-radius:3px;
+	margin-left: 118px;
+	margin-top: 10px;
+	padding-top: 11px;
+}
+
+.give p {
+	font-family: sans-serif;
+	color: #fff;
+	font-size: 15px;
+	text-align: center;
+}
+
+.why em {
+	color: #20A1D4;
+	font-family: "rooney-web";
+	float: left;
+	margin-top: 6px;
+}
+
+.middle {
+	width:265px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.save {
+	width:127px;
+	height:35px;
+	border-style:solid;
+	border-color:#eaeaea;
+	border-width:1px;
+	border-radius:3px;
+	float:left;
+	margin-top:13px;
+	box-shadow: 0px 1px 1px #eaeaea;
+}
+
+.save p {
+	font-size:13px;
+	color:#777;
+	font-family:Avenir-Book;
+	font-weight: 900;
+	text-align:center;
+	padding-top:10px;
+}
+
+.tell {
+	width:127px;
+	height:35px;
+	border-style:solid;
+	border-color:#eaeaea;
+	border-width:1px;
+	border-radius:3px;
+	float:right;
+	margin-top: 13px;
+	box-shadow: 0px 1px 1px #eaeaea;
+}
+
+.tell p {
+	font-size:13px;
+	color:#777;
+	font-family:Avenir-Book;
+	font-weight: 900;
+	text-align:center;
+	padding-top:10px;
+}
+/* COLORS:
+  blue: #20A1D4;
+  green: #1CBC2C;
+  orange: #EF5F3C;
+  black: #424242;
+  grey: #777;
+  light grey: #eaeaea;
+*/
+
+/* Your CSS goes here */
