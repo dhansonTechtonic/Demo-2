@@ -11,5 +11,6 @@ var boldMoney = document.getElementById('boldMoney');
 
 var whatsLeft = goal - currentAmount;
 
-Math.round(whatsLeft);
+Math.round("whatsLeft");
+
 boldMoney.innerHTML = "$" + whatsLeft;
